@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/louisevl/tilUX.git/static/css/main.46fede15.css",
+    "main.js": "/louisevl/tilUX.git/static/js/main.c71128a3.js",
+    "static/js/787.22cf53f4.chunk.js": "/louisevl/tilUX.git/static/js/787.22cf53f4.chunk.js",
+    "static/media/logocph.png": "/louisevl/tilUX.git/static/media/logocph.fb4d707c9f8b5ec6f640.png",
+    "static/media/B-Overview-et.png": "/louisevl/tilUX.git/static/media/B-Overview-et.87b34a16a27299c593ab.png",
+    "index.html": "/louisevl/tilUX.git/index.html",
+    "main.46fede15.css.map": "/louisevl/tilUX.git/static/css/main.46fede15.css.map",
+    "main.c71128a3.js.map": "/louisevl/tilUX.git/static/js/main.c71128a3.js.map",
+    "787.22cf53f4.chunk.js.map": "/louisevl/tilUX.git/static/js/787.22cf53f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46fede15.css",
+    "static/js/main.c71128a3.js"
+  ]
+}
