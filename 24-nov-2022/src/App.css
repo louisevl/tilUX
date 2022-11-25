@@ -1,0 +1,637 @@
+.App {
+  text-align: center;
+  font-family: 'source sans pro', sans-serif;
+}
+
+.App-header {
+  background-color: #00163B;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 104px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* HEADER */
+.logocph {
+  width: 250px;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+
+/* INDSAT 24. nov*/
+#header-booking {
+height: 10px;
+}
+
+.Head {
+  display: flex;
+
+}
+
+
+/* .Header-knap{
+  display: flex;
+  padding-left: 680px;
+}
+
+.Header-knap-to {
+  display: flex;
+  padding-left: 30px;
+
+
+} */
+
+.knapper_header {
+  padding-left: 970px;
+  padding-top: 35px;
+}
+
+.Header-knap,
+.header-link {
+  background-color: #00163B;
+  color: #FBB040;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  padding-right: 15px;
+  text-decoration: none;
+
+}
+
+.Header-knap-to,
+.header-link {
+  background-color: #00163B;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Header-knap:active,
+.Header-knap-to:active {
+  color: #FBB040;
+}
+
+/* SingleBooking.jsx CSS */
+
+.room {
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.time {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.singleBooking {
+  display: flex;
+  justify-content: center;
+}
+
+/*INDSAT 24. nov*/
+#minebookinger {
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+#edit {
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid black;
+}
+
+#trashcan {
+  width: 20px;
+  height: 20px;
+  padding-left: 5px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid black;
+}
+
+.App {
+  margin-bottom: 100px;
+}
+
+
+.modal {
+  width: 1000px;
+}
+
+#modalbox {
+  width: 1000px;
+}
+
+#modalbox button {
+  font-size: 25px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
+  filter: drop-shadow(#0000);
+  color: #00163B;
+
+
+}
+
+#outerbox {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#outerbox div {
+  padding: 30px;
+  width: 340px;
+  height: 450px;
+  background-color: #7A8597;
+  margin: 20px;
+}
+
+#modalbox{
+  display: flex;
+
+}
+
+/*#stepbox1 input {
+  width: 100px;
+  height: 53px;
+  background-color: #00163B;
+  color: white;
+}*/
+
+#stepbox1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #stepbox11 input {
+  width: 25px;
+  height: 25px;
+  background-color: #E2E2E2;
+  color: #00163B;
+} */
+
+#stepbox2 select {
+  width: 183px;
+  height: 67px;
+  background-color: #00163B;
+  color: white;
+}
+
+#stepbox2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#stepbox2 option {
+  background-color: #00163B;
+}
+
+#stepbox3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#bookbutton {
+  color: #ffffff !important;
+
+  background-color: #00163B !important;
+  border: none;
+  justify-content: center;
+  font-size: 25px !important;
+  height: 40px !important;
+  width: 120px !important;
+
+
+}
+
+#trin1kalender {
+  height: 53px !important;
+  width: 100px !important;
+  color: #ffffff !important;
+  background-color: #00163B !important;
+  border: none;
+}
+
+
+#dato {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#vaelg_tidspunkt {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+
+#lokale {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#morgen {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+
+#eftermiddag {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+#radio {
+  Color: #E2E2E2; 
+  Width: 44;
+  Height: 44;
+}
+
+/* FOOTER */
+
+#copyright {
+  color: #ffffff;
+  display: flex;
+  float: right;
+  padding-right: 30px;
+  font-size: 16px;
+  padding-top: 6px;
+}
+
+.App-Footer {
+  background-color: #7A8597;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#icon1 {
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 17px;
+  float: left;
+  display: flex;
+}
+
+#icon2 {
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+  padding-top: 17px;
+  float: left;
+  display: flex;
+}
+
+#icon3 {
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+  padding-top: 17px;
+  float: left;
+  display: flex;
+}
+
+#icon4 {
+  width: 37px;
+  height: 28px;
+  padding-right: 30px;
+  padding-top: 18px;
+  float: left;
+  display: flex;
+}
+
+/* Kalender */
+
+
+#tekst_kalender {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 200px;
+  background-color: #00163B;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* display: flex; */
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+
+
+.react-calendar {
+  width: 290px;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.react-calendar--doubleView {
+  width: 100px;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer>* {
+  width: 50%;
+  margin: 0.5em;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #e2e2e2;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+}
+
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__tile--now {
+  background: #7A8597;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #e6e6e6;
+}
+
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+
+.react-calendar__tile--active {
+  background: #FBB040;
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #FBB040;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}
+
+
+
+/* Billeder over bar INDSAT 24. nov */
+#imgoverview {
+  display: flex;
+  width: 800px;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+
+/* Bar med ugedage og uger */
+
+.bar {
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 2px;
+  margin-left: 533px;
+  margin-right: 166px;
+  margin-top: 20px;
+}
+/*INDSAT 24. nov*/
+#mandag, #tirsdag, #onsdag, #torsdag, #fredag {
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-color: #b6b9bf;
+  border-width: 1px;
+}
+
+
+#uge {
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#pil_venstre {
+width: 20px;
+height: 20px;
+}
+
+#pil_hojre {
+  width: 20px;
+  height: 20px;
+}
+
+
+#type_lokale select{
+  width: 130px;
+  height: 40px;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  border-width: 0.1px;
+  border-color: #b6b9bf;
+  margin-right: 10px;
+  height: 47px;
+}
+
+#lokalenummer select{
+  width: 30px;
+  height: 40px;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  border-width: 0.1px;
+  border-color: #b6b9bf;
+  height: 47px;
+  width: 50px;
+  padding-left: 5px;
+}
+
+#dropdown {
+display: flex;
+justify-content: center;
+margin-top: 200px;
+margin-left: 40px;
+}
+
+.flex {
+  flex-direction: row;
+  display: flex;
+}
+
+.status_paa_booking {
+  width: 820px;
+  margin-left: 43px;
+  height: 273px;
+  margin-top: 20px;
+}
+
+/*.flex2 {
+   flex-direction: row;
+  display: flex; 
+}*/
+
+#trin1button1 {
+  width: 44px;
+  height: 44px;
+}
+
+#trin1button2 {
+  width: 44px;
+  height: 44px;
+}
+
+/*Booking overview table*/
+
+table{
+  width: 1093px;
+  margin-left: 40px;
+  border-collapse: collapse;
+}
+
+tr {
+  width: 50%;
+  border-bottom: solid 1px black;
+  
+}
+
+.availiable{
+  text-align: left;
+}
+
+.timeOverview{
+ text-align: right;
+}
+
+
